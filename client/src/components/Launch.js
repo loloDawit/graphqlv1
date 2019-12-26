@@ -80,6 +80,8 @@ export class Launch extends Component {
                     Rocket Type: {rocket_type}
                   </li>
                 </ul>
+                <hr/>
+                <Link to="/" className="btn btn-secondary">Back</Link>
               </div>
             );
           }}
