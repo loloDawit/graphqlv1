@@ -1,0 +1,27 @@
+{
+  "name": "spacexinfo",
+  "version": "1.0.0",
+  "description": "To learn GraphQl by building an app using express and react that lists SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "graphql",
+    "express",
+    "react"
+  ],
+  "author": "Dawit a",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
