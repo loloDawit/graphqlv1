@@ -32,8 +32,6 @@ export class Launch extends Component {
           {({ loading, error, data }) => {
             if (loading) return <h4>Loading....</h4>;
             if (error) return console.log(error);
-
-            console.log(data);
             const {
               mission_name,
               flight_number,
